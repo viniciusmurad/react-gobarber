@@ -27,11 +27,10 @@ export const Content = styled.div`
             font-weight: bold;
             color: #764ba2;
         }
-
-        aside {
-            display: flex;
-            align-items: center;
-        }
+    }
+    aside {
+        display: flex;
+        align-items: center;
     }
 `;
 
@@ -60,6 +59,7 @@ export const Profile = styled.div`
 
     img {
         height: 32px;
+        width: 32px;
         border-radius: 50%;
     }
 `;
